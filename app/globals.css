@@ -3,6 +3,8 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@tailwind utilities;
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
