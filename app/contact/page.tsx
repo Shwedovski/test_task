@@ -26,7 +26,6 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold mb-10 text-center text-blue-700">Contact Us</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-        {/* Contact Form */}
         <form
           onSubmit={handleSubmit}
           className="space-y-8 bg-white p-10 rounded-2xl shadow-xl border border-gray-300"
@@ -99,7 +98,6 @@ export default function ContactPage() {
           </button>
         </form>
 
-        {/* Contact Info & Map */}
         <div className="space-y-8">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-4 text-gray-800">Contact Info</h2>
