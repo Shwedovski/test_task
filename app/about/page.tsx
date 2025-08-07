@@ -26,7 +26,7 @@ export default function AboutPage() {
         <div className="flex-1 bg-blue-50 p-8 rounded-lg shadow-md">
           <h3 className="text-2xl font-semibold mb-4 text-blue-700">Our Vision</h3>
           <p className="text-gray-700 text-lg leading-relaxed">
-            To be Austin’s most respected plumbing company, recognized for our commitment to innovation, sustainability, and community engagement.
+            To be Austin&apos;s most respected plumbing company, recognized for our commitment to innovation, sustainability, and community engagement.
           </p>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function AboutPage() {
           </div>
           <div className="flex items-start space-x-4">
             <span className="text-blue-600 text-3xl font-bold">⏰</span>
-            <p><strong>Reliability:</strong> We're available 24/7 and always on time for our customers.</p>
+            <p><strong>Reliability:</strong> We&apos;re available 24/7 and always on time for our customers.</p>
           </div>
           <div className="flex items-start space-x-4">
             <span className="text-blue-600 text-3xl font-bold">🤝</span>

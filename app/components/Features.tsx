@@ -29,7 +29,7 @@ export default function Features() {
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-6">Why Choose ABC Plumber?</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-          We're trusted by hundreds of homeowners across Austin thanks to our fast response, expert service, and customer-first attitude.
+          We&apos;re trusted by hundreds of homeowners across Austin thanks to our fast response, expert service, and customer-first attitude.
         </p>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, index) => (
