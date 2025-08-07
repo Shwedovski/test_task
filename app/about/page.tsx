@@ -6,7 +6,7 @@ export default function AboutPage() {
     <main className="max-w-6xl mx-auto px-6 py-20 space-y-16">
       <h1 className="text-5xl font-bold mb-12 text-blue-700 text-center">About ABC Plumber</h1>
 
-      {/* Our Story */}
+
       <section className="max-w-4xl mx-auto space-y-4 text-center">
         <h2 className="text-3xl font-semibold text-gray-800">Our Story</h2>
         <p className="text-gray-700 text-lg leading-relaxed">
@@ -15,7 +15,7 @@ export default function AboutPage() {
         </p>
       </section>
 
-      {/* Mission & Vision side by side */}
+
       <section className="flex flex-col md:flex-row max-w-5xl mx-auto gap-12">
         <div className="flex-1 bg-blue-50 p-8 rounded-lg shadow-md">
           <h3 className="text-2xl font-semibold mb-4 text-blue-700">Our Mission</h3>
@@ -31,7 +31,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Core Values */}
+
       <section className="max-w-4xl mx-auto space-y-6">
         <h2 className="text-3xl font-semibold text-gray-800 text-center mb-6">Core Values</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-700 text-lg">
@@ -58,7 +58,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Photo */}
+
       <section className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-6 text-gray-800">Meet Our Team</h2>
         <Image
@@ -74,7 +74,6 @@ export default function AboutPage() {
         </p>
       </section>
 
-      {/* Community Involvement */}
       <section className="max-w-4xl mx-auto space-y-4 text-center bg-blue-50 p-10 rounded-lg shadow-md">
         <h2 className="text-3xl font-semibold text-blue-700">Community Involvement</h2>
         <p className="text-gray-700 text-lg leading-relaxed">
@@ -82,7 +81,7 @@ export default function AboutPage() {
         </p>
       </section>
 
-      {/* Call to Action */}
+
       <section className="max-w-3xl mx-auto text-center">
         <h3 className="text-3xl font-semibold mb-4 text-blue-700">Want to work with us?</h3>
         <p className="text-gray-700 mb-6">

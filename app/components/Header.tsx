@@ -19,12 +19,10 @@ export default function Header() {
   return (
     <header className="w-full px-6 py-4 bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
         <Link href="/" className="text-xl font-bold text-blue-700">
           ABC Plumber
         </Link>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex gap-6 items-center">
           {navItems.map((item) => (
             <Link
@@ -45,7 +43,6 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* Mobile Burger */}
         <button
           className="md:hidden text-gray-700"
           onClick={() => setIsOpen(!isOpen)}
@@ -55,7 +52,6 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-4 bg-white shadow-lg rounded-md px-4 py-4 space-y-4">
           {navItems.map((item) => (
