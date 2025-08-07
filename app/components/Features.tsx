@@ -14,7 +14,7 @@ export default function Features() {
     },
     {
       title: '24/7 Emergency Service',
-      description: 'We’re always here when you need us, day or night.',
+      description: 'We&apos;re always here when you need us, day or night.',
       icon: <Clock className="w-8 h-8 text-blue-600" />,
     },
     {
